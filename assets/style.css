@@ -156,19 +156,19 @@ h1{
       cursor: pointer;
 }
 
+
+
+
 .notes-container {
-    /* border: 1px solid green; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-     text-align: center; */
-    width: 100%;
+    width: 1600px;
+    height:  448px;
+    
     /* padding:120px; */
     padding: 0px 120px;
 }
 
 .notes-content {
-    border: #30B868 1px solid;
+  
     width:100% ;
     max-width: 1360px;
     min-height: 152px;
@@ -178,4 +178,70 @@ h1{
     align-items: center;
     gap: 16px;
 }
+.notes-content h2 {
+    font-size:  48px;
+    font-weight: bold;
+    gap: 16px;
+}
+.notes-content p{
+    color: #627382;
+}
 
+
+
+.notes-cards {
+     width:100% ;
+    max-width: 1360px;
+    min-height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+    margin-top: 44px;
+}
+
+
+.card {
+  
+    width: 322px;
+    height: 300px;
+    padding:24px;
+    text-align: center;
+
+}
+
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+     margin: 0 auto 16px;
+   
+}
+.notes-cards .card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+
+.second-brain{
+    width: 1600px;
+    height: 840px;
+    padding: 120px;
+  
+}
+
+.second-brain-content {
+      /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* background-image: url("./knowledge.png");
+    background-repeat: no-repeat;
+    background-position:bottom; */
+}
